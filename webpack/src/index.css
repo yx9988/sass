@@ -1,0 +1,18 @@
+h2{
+    background: blue;
+    background-image: url(./image/hhh.jpg);
+    height: 500px;
+    animation: run 2s ease 6s;
+}
+@keyframes run{
+    0%{
+        width:100px;
+    }
+    50%{
+        width:800px;
+
+    }
+    100%{
+        width:300px;
+    }   
+}
